@@ -148,6 +148,8 @@ display: inline;
     margin: 20px;
     font-size:0.6em;
     background-image: url("../img/key.png");
+    width:46px;
+    height:40px;
 }
 .invSlot2 {
     display: inline;
@@ -158,5 +160,7 @@ display: inline;
     margin: 20px;
     font-size:0.6em;
     background-image: url("../img/lighter.jpg");
+    width:46px;
+    height:40px;
 }
 }
