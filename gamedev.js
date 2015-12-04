@@ -1,4 +1,5 @@
 $( document ).ready(function() {
+	$("#tires").hide();
 
 	$("#goRight1").click(function() {
 		$("#exploreBody").css("background-image", "url('img/exploreRight1.jpg')");
@@ -12,12 +13,17 @@ $( document ).ready(function() {
 		$("#exploreBody").css("background-image", "url('img/exploreRight2.jpg')");
 		$("#goRight-Straight1").hide();
 		$("#goRight-Straight2").show();
+		$("#tires").show();
+	});
+	$("#tires").click(function() {
+		$("#tires").hide();
 	});
 
 	$("#goRight-Straight2").click(function() {
 		$("#exploreBody").css("background-image", "url('img/exploreRight3.jpg')");
 		$("#goRight-Straight2").hide();
 		$("#goRight-Straight3").show();
+		$("#tires").hide();
 	});
 
 	$("#goRight-Straight3").click(function() {
