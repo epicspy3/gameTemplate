@@ -1,5 +1,6 @@
 $( document ).ready(function() {
 	$("#tires").hide();
+	$("key").hide();
 
 	$("#goRight1").click(function() {
 		$("#exploreBody").css("background-image", "url('img/exploreRight1.jpg')");
@@ -7,11 +8,19 @@ $( document ).ready(function() {
 		$("#goBack").hide();
 		$("#goRight-Straight1").show();
 		$("#goRight-Right2").show();
+		$("key").hide();
 	});
 
 	$("#tires").click(function() {
 		$("#tires").fadeOut(1000);
+		$("key").show();
 	});
+	$("key").click(function() {
+		if (!.invSlot1) {
+			$(".invSlot1").animate({left: "80px"});
+			invSlot1 = true;
+		}
+	}
 
 	$("#goRight-Straight1").click(function() {
 		$("#exploreBody").css("background-image", "url('img/greystone-25.jpg')");
