@@ -74,6 +74,12 @@ body {
     display: none;
 }
 
+#tires {
+    margin: auto;
+    width: 200px;
+    height: 160px;
+}
+
 #goLeft-Straight1 {
     bottom: 25%;
     left: 45%;
