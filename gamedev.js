@@ -2,7 +2,7 @@ $( document ).ready(function() {
 	$("#tires").hide();
 
 	$("#goRight1").click(function() {
-		$("#exploreBody").css("background-image", "url('img/exploreRight1.jpg')");
+		$("#exploreBody").css("background-image", "url('storage-room.jpg)");
 		$("#goRight1").hide();
 		$("#goBack").hide();
 		$("#goRight-Straight1").show();
