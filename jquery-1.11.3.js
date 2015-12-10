@@ -10348,6 +10348,9 @@ if ( typeof noGlobal === strundefined ) {
 $git fetch origin
 $git checkout -b master origin/master
 $git merge pictures
+$git checkout master
+$git merge --no-ff pictures
+$git push origin master
 return jQuery;
 
 }));
